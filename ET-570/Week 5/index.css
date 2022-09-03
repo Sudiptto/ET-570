@@ -1,0 +1,233 @@
+html {
+    background-color: white;
+}
+
+.rgb1{
+    background-color: rgb(66,133,244);
+    padding: 12px;
+   }
+   .rgb2{
+    background-color: rgb(234,67,53);
+    padding: 12px;
+   }
+   .rgb3{
+    background-color: rgb(251,188,5); 
+    padding: 12px;
+   }
+   .rgb4{
+    background-color: rgb(52,168,83); 
+    padding: 12px;
+   }
+
+   /* Navbar container */
+.navbar {
+    overflow: hidden;
+    background-color: #333;
+    font-family: Arial;
+  }
+  
+  /* Links inside the navbar */
+  .navbar a {
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* The dropdown container */
+  .dropdown {
+    float: left;
+    overflow: hidden;
+  }
+  
+  /* Dropdown button */
+  .dropdown .dropbtn {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit; /* Important for vertical align on mobile phones */
+    margin: 0; /* Important for vertical align on mobile phones */
+  }
+  
+  /* Add a red background color to navbar links on hover */
+  .navbar a:hover, .dropdown:hover .dropbtn {
+    background-color: rgb(233, 233, 233);
+  }
+  
+  /* Dropdown content (hidden by default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 190px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  /* Add a grey background color to dropdown links on hover */
+  .dropdown-content a:hover {
+    background-color: #ddd;
+  }
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+  .primary{
+    background-color: #dd2c00; padding:12px; color:#5df2d6;
+   }
+   .primary_dark{
+    background-color: #a30000; padding:12px; color:#5df2d6;
+   }
+   .primary_light{
+    background-color: #ff6434; padding:12px; color:#5df2d6;
+   }
+   .sec{
+    background-color: #00bfa5; padding:12px; color:#ff6434;
+   }
+   .sec_dark{
+    background-color: #008e76; padding:12px; color:#ff6434;
+   }
+   .sec_light{
+    background-color: #5df2d6; padding:12px; color:#ff6434;
+   }
+
+h3 {
+    text-align: center;
+}
+
+.rgba1{
+    background-color: rgba(66,133,244,0); padding: 12px;
+   }
+   .rgba2{
+    background-color: rgba(66,133,244,0.3); padding: 12px;
+   }
+   .rgba3{
+    background-color: rgba(66,133,244,0.7); padding: 12px;
+   }
+   .rgba4{
+    background-color: rgba(66,133,244,1); padding: 12px;
+   }
+   
+   .gradient1 {
+    height: 200px;
+    background-image: linear-gradient(red, yellow); 
+   }
+   .gradient2 {
+    height: 200px;
+    background-image: linear-gradient(to right, red, yellow); 
+   }
+   .gradient3 {
+    height: 200px;
+    background-image: linear-gradient(to top left, red, 
+   yellow); 
+   }
+   img{ 
+    width: 100%; 
+    height: 100%;
+  }
+  .imageContainer{
+    width: 80%;
+    height: 160px;
+    margin: auto;
+    position: relative;
+  }
+
+  .stickyBox{
+    font-size: 20px;
+    text-align: center;
+    padding: 20px;
+    background-color: lightgreen;
+    position: sticky;
+    top:0;
+   }
+   .heroContainer{
+    height: 380px;
+    background-image:linear-gradient(to top right, rgba(66,133,244,0.6), 
+    rgba(234,67,53,0.7)), url("images/flushing.png");
+    position: relative;
+   }
+   .heroText{
+    position: absolute;
+    top: 10%;
+    width: 80%;
+    left: 10%;
+    text-align: center;
+   }
+   .heroText h1{color:lightgray; }
+   .heroText i{ font-size: 1.3em; }
+   .heroText a{
+    display: block;
+    text-decoration: none;
+    color: lightgray;
+    background-color: rgb(234,67,53);
+    padding: 12px;
+    width: 50%;
+    margin: auto;
+    margin-top: 20px;
+    border-radius: 10px;
+   }
+   .heroText a:hover{
+    background-color: rgb(66,133,244);
+    font-weight: 600;
+   }   
+
+   .blur1{
+    filter: blur(1px); 
+  }
+  .blur2{
+    filter: blur(5px); 
+  }
+  .blur3{
+    filter: blur(10px);
+  }
+  .blur4{
+    filter: blur(15px);
+  }
+
+  img{
+    height: 100px;
+    width: 100%;
+  }
+
+  .contrast1{
+    filter: contrast(0%);
+  }
+.contrast2{
+  filter: contrast(30%);
+}
+.contrast3{
+  filter: contrast(60%);
+}
+.contrast4{
+  filter: contrast(90%);
+}
+.invert1{
+  filter: invert(0%);
+}
+.invert2{
+  filter: invert(30%);
+}
+.invert3{
+  filter: invert(70%);
+}
+.invert4{
+  filter: invert(100%);
+}
+

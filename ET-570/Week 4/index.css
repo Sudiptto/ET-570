@@ -1,0 +1,82 @@
+html {
+    background-color: rgb(0, 0, 0);
+    scroll-behavior: smooth;
+}
+.title{
+    background-color: silver;
+    text-align: center; color:rgb(0, 0, 0);
+    padding: 12px;
+    box-shadow: 5px 5px 2px rgb(241, 234, 234);
+    }
+
+.container{ 
+        background-color: rgb(0, 0, 0); 
+        color: white;
+        background-image: url("img/background.jpg");
+    }
+
+.img1{
+    width: 40%; 
+    margin-right: 3%;
+    height: 16vh;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 5px;
+    padding: 0.5vh;
+
+}
+.img2{
+    width: 50%;
+    height: 16vh;
+    border-radius: 50%;
+}
+.img3{
+    width: 50%; 
+    margin-right: 3%;
+    height: 16vh;
+    border-radius: 8px;
+}
+.img4{
+    width: 45%;
+    height: 16vh;
+    box-shadow: 0 0 5px 10px lightblue;
+}
+.introNYC{
+    padding: 20px;
+    text-align: justify;
+    font-size: 1em;
+}
+
+.nav_horizontal{
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    /*   .nav_horizontal{
+ background-color: darkgreen;
+ height: auto;
+ position: fixed;
+ top: 0;
+        note: the above code messes the program up
+ */
+}
+   
+.nav_horizontal a {
+    color: rgb(0, 0, 0);
+    padding: 10px;
+    text-decoration: none;
+    display:inline-block;
+    width: 40%;
+    text-align: center;
+   }
+
+.nav_horizontal a:hover{
+    background-color: lightyellow;
+    color: darkgreen;
+   }
+
+   .socialMedia{
+    margin-bottom: 10em;
+
+    padding: 2em;
+   }
+   
+
+

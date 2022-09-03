@@ -1,0 +1,98 @@
+html, body {
+    background-color: rgb(190, 112, 112);
+  
+   
+}
+
+.shadow {
+    color: red;
+    text-shadow: 14px 13px 1px green;
+    text-align: center;
+}
+
+.navbar {
+    overflow: hidden;
+    background-color: green;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+  
+  .navbar a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .navbar a:hover {
+    background: red;
+    color: white;
+  }
+  
+  .navbar a.active {
+    background-color: #04AA6D;
+    color: white;
+  }
+
+ h3 {
+    width: 100%;
+    background-color: green;
+    color: rgb(254, 243, 243);
+    font-size: 24px;
+    border-radius: 10px;
+ }
+
+ p{
+    text-align: justify;
+    font-family: 'Indie Flower', cursive;
+    padding-right: 10px;
+ }
+.image {
+    text-align: center;
+}
+ .image1{
+    width: 300px;
+    height: 210px;
+    border-radius: 50%;
+    box-shadow: 2cm;
+    float: left;
+
+ }
+
+ .img1{
+  width: 42%; 
+  margin-right: 3%;
+  height: 26vh;
+  padding: 0.5vh;
+
+}
+.img2{
+  width: 51%;
+  height: 26vh;
+
+}
+.img3{
+  width: 49%; 
+  margin-right: 3%;
+  height: 26vh;
+
+}
+.img4{
+  width: 46%;
+  height: 26vh;
+
+}
+
+table, th, td {
+  border:0px solid black;
+  border-top: 0px solid black;
+}
+
+
+
+
+

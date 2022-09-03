@@ -1,0 +1,86 @@
+html {
+    background-color: black;
+    color: rgb(0, 0, 0);
+
+}   
+ p{
+    color: white;
+}
+/* NAV BAR FROM LAST LESSON*/
+.navs {
+    margin: 5;
+    padding: 5;
+    overflow: hidden;
+    background-color: rgb(255, 255, 255);
+    border-radius: 25px; /* MAKE IT ROUNDED*/
+  }
+  
+ .navs li {
+    float: right; /*MOVE NAVBAR TO THE right */
+    list-style-type: none; /* REMOVE THE DOT */
+  }
+  /* the 'a' represents the hrefs*/
+ .navs li a {
+    display: block;
+    color: rgb(0, 0, 0);
+    text-align: left;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+        
+  .navs a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+
+  h1 {
+    color:rgb(255, 255, 255);
+    text-align: center;
+}
+.intro{
+    color: rgb(255, 255, 255);
+    font-family: georgia;
+    text-align: justify;
+    }
+    .author{
+    color: rgb(201, 201, 215);
+    font-family: "monotype corsiva";
+    text-align: right;
+    }
+    /* DIFFERENT FONT WEIGHT */
+.fontWeight{
+        font-weight: bold;
+        font-size: 20px;
+       }
+.fontStyle{
+        font-style: oblique;
+        font-size: 200%;
+       }
+.fontStretch{
+        font-stretch: condensed;
+        font-size: 1.5em;
+       }
+
+.shadow {
+    text-shadow: 14px 13px 1px rgb(128, 83, 83);
+
+}
+
+.divider{
+    border: dashed 5px rgb(255, 255, 255);
+}
+
+/* START OF PART 2 OF ACTIVITY */
+.padding1{padding: 20px;
+    border: 20px inset rgb(255, 255, 255); }
+    
+    .padding2{padding-left: 30px;
+        border: 10px inset rgb(255, 255, 255); }
+        .padding3{padding: 50px 20px 10px 0px;
+            border: 10px inset rgb(255, 255, 255); }
+            
+            .padding4{margin: 50px 30px;
+                border: solid 10px rgb(255, 255, 255);}
+                   
+  
+       

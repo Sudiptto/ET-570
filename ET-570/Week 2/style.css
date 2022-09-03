@@ -1,0 +1,27 @@
+html {
+    text-align: center;
+    background-color: rgb(31, 31, 31);
+    color: white;
+}
+
+/* MAKE NAV BAR INLINE + ADD NEW FEATURES */
+/* .navs is the parent while the li under it are the children, so i do .navs li */
+.navs {
+    margin: 5;
+    padding: 5;
+    overflow: hidden;
+    background-color: rgb(0, 0, 0);
+    border-radius: 25px; /* MAKE IT ROUNDED*/
+  }
+  
+ .navs li {
+    float: left; /*MOVE NAVBAR TO THE LEFT */
+  }
+  /* the 'a' represents the hrefs*/
+ .navs li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }

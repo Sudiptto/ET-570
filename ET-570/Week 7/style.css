@@ -1,0 +1,89 @@
+body{ 
+    padding: 12px; 
+    background-color: white;
+}
+h1{ 
+    color: darkgreen; 
+}
+.linkModel{
+text-align:center; 
+background-color: orange; 
+font-size: 20px; 
+padding: 10px;
+border-radius: 20px;
+text-decoration:none;
+color: white;
+}
+figure img:nth-child(1){
+ width: 40%;
+ border: solid darkgreen 5px;
+ margin: 2%;
+ height: 120px;
+ float: left;
+}
+figure img:nth-child(2){
+ width: 40%;
+ border: solid darkgreen 5px;
+ margin: 2%;
+ height: 120px;
+}
+
+.modalWindow {
+    position: 
+    fixed; top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+   background: rgb(235, 232, 232);
+    opacity:0;
+    pointer-events: none;
+    
+}    
+.modalWindow:hover{
+    opacity:1;
+}
+.modalWindow:target{
+    opacity:1;
+    transition: ease-in 0.5s;
+    pointer-events: auto;
+}
+.msgText{
+    width: 80%;
+    background: linear-gradient(darkgreen,orange);
+    position: relative; 
+    margin: auto; 
+    margin-top: 1%; 
+    height: 90%;
+    }
+
+    .msgText h2{
+        padding: 20px; 
+        background-color: darkgreen; 
+        color: orange;
+        }
+        .modal-closeX{
+         color:orange;
+        
+         display: inline-block;
+         text-decoration: none;
+        }
+        .msgText p{
+        padding: 20px;
+        color:white;
+        }
+        .msgText img{
+         width: 80%;
+         height: auto;
+         margin:10%;
+         box-shadow: 1px 1px 10px darkgreen;
+        }
+        .modal-close {
+        color:white;
+        background-color: orange;
+        padding: 12px 50px 12px 50px;
+        text-align: center;
+        text-decoration: none;
+        float: right;
+        margin-right: 10%;
+        }
+
